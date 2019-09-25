@@ -27,6 +27,11 @@ class App extends React.Component {
         return <div>Loading!</div>;
         
     }
+    
+}
+
+const testFunction = () => {
+    //this function exists merely for repo-testing purposes
 }
 
 ReactDOM.render(<App />, document.querySelector('#root'));
