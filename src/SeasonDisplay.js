@@ -8,6 +8,10 @@ const getSeason = (lat, month) => {
     }
 }
 
+const testFunction = () => {
+    //this function exists merely for repo-testing purposes
+}
+
 const SeasonDisplay = (props) => {
     const season = getSeason(props.lat, new Date().getMonth());
 
