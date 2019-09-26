@@ -30,12 +30,4 @@ class App extends React.Component {
     
 }
 
-const testFunction = () => {
-    //this function exists merely for repo-testing purposes
-}
-
-const testFunctionTwo = () => {
-    //Another empty function!
-}
-
 ReactDOM.render(<App />, document.querySelector('#root'));
