@@ -10,6 +10,7 @@ const getSeason = (lat, month) => {
 
 const testFunction = () => {
     //this function exists merely for repo-testing purposes
+    //Adding more comments for test at work tomorrow!
 }
 
 const SeasonDisplay = (props) => {
